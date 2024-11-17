@@ -4,6 +4,14 @@
   <link rel="stylesheet" href="./stuff.css">
 
   <body>
-      <h1>WiP!</h1>
+      <div>
+          <h1 id="text">WiP!</h1>
+      </div>
+
+      <script>
+          setInterval(function() {
+              document.getElementById('text').style.transform += "rotate(10deg)";
+          }, 1);
+      </script>
   </body>
 </html>
