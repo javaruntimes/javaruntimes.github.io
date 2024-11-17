@@ -1,1 +1,1 @@
-Small work in place website.
+Work in progress website, basically a portfolio.
